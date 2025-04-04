@@ -131,9 +131,13 @@ a:focus{
   }
 }
 
-form div.incorrect label{
+.incorrect label{
   background-color: #ee6161;
 }
-form div.incorrect input{
+.incorrect input{
   border-color: #ee6161;
+}
+
+#error-message{
+  color: #ee6161;
 }
